@@ -1,8 +1,8 @@
 language: cpp
 compiler:
   - gcc
-
-before_script:
-  - sudo apt install libsdl2-dev
-
-script: make
+os:
+  - linux
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install libsdl2-dev
