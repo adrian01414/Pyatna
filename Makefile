@@ -1,2 +1,2 @@
 all:
-  gcc Source.c -o Source -lSDL2
+	gcc Source.c -o Source -lSDL2
