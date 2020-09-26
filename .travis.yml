@@ -5,5 +5,5 @@ os:
   - linux
 before_install:
   - sudo apt-get update
-  - sudo apt-get install libsdl2-dev
+  - sudo apt install libsdl2-dev
 script: make
