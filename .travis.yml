@@ -1,5 +1,6 @@
-language: cpp
+language: c
 compiler:
+  - clang
   - gcc
 os:
   - linux
@@ -7,7 +8,7 @@ dist: focal
 sudo: required
 before_install:
   - sudo apt-get update
-  - sudo apt install build-essential
   - sudo apt install cmake
+  - sudo apt install make
   - sudo apt install libsdl2-dev libsdl2-2.0-0
 script: make
